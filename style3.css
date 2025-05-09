@@ -1,65 +1,110 @@
-<html>
-    <head>
-        <title>Метеортит</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <h1> Про Метеортити </h1>
-        </header>
-        <nav>
-            <a class="about" href="#">Сонячна система</a>
-            <a class="blog" href="#">Планети</a>
-            <a class="projects" href="#">Метеорити</a>
-            <a class="contact" href="#">Супутники</a>
-        </nav>
-        <main>
-            <section>
-            <h1> Метеортит</h1>
-            <p>Метеорит (від грец. «підвішений у повітрі») — тверде тіло космічного походження, що впало на поверхню Землі або іншого космічного тіла з космосу. </p>
-            <div class="img-container">
-            <img class="sun-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgbPcIaW5BlZdJku4gnRyOx_hswfjQSS-RYw&s">
-            <img class="sun-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFm-5RhJdAbZlB34NMLdl31NHkP8Fs_oCvJA&s">
-            </div>
-            </section>
-               <section>
-            <h1> Астероїд</h1>
-            <p> Астероїд — це невелике кам'яне або металеве небесне тіло розміром від декількох метрів до сотень кілометрів, яке обертається кеплерівською орбітою навколо Сонця. Менші небесні тіла називають метеороїдами (розміри від декількох міліметрів до метрів), а більші — карликовими планетами (близько тисячі кілометрів).</p>
-            <div class="img-container">
-            <img class="orbita-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSObiLi_dqFSEf805b7LSymsoCphk8obTiDLw&s">             
-            <img class="orbita-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTihM_Jn0p3nN38HMA_hrZ3zSJqIdzsG-R2Ag&s"> 
-            </div>
-            </section>
-            <section>
-            <h1>Комета</h1>
-            <p> Комета  — мале тіло Сонячної системи, яке має дуже ексцентричні еліптичні орбіти. При наближенні до Сонця, комета нагрівається та починає виділяти гази з утворенням гравітаційно незв'язаної атмосфери, навколо ядра, а також хвоста газу та пилу, що зумовлено впливом сонячного випромінювання та сонячного вітру.
-         </p>
-            <div class="img-container">
-            <img class="orbita-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcj4meic6FBIvGdk7iBJVCt6XrGV7yBZjq_w&s">             
-            <img class="sun-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrQ-39Sy4oFhrPl2w8Tq8N-xwILHZx1qEpyg&s">
-            </div>
-            </section>
-             <section>
-                <h1>Відео </h1>
-                <div class="videos">
-        <div class="video-container">
-            <p> Відео про комети </p>
-    <iframe width="350" height="200" src="https://www.youtube.com/embed/6kojysOW11E" title="☄️ Комети: дивовижні факти, відкриття й дослідження (відео 1)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>   
-            </div>
-        <div class="video-container">
-            <p> Відео про астероїди </p>
-            <iframe width="350" height="200" src="https://www.youtube.com/embed/7sa4WfLx6WU" title="Що небезпечніше: комети чи астероїди?. Космос Українською" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-           <div class="video-container">
-           <p> Відео про метеорити </p>
-           <iframe width="350" height="200" src="https://www.youtube.com/embed/LR2hqIeMEDw" title="Метеорити" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            </div>
-            </section>
-           </main> 
-               <footer> 
-            <h1> Звідки я брала інформацію </h1>
-             <p> Google Chrome  </p>
-           </footer>
-    </body>
-</html>
+body {
+   background-color: #200439;
+   margin: 0;
+}
+
+h1 {
+   font-family:Impact, fantasy; 
+   color: #6F4D8F;
+   text-align: center;
+   margin: 0;
+}
+
+nav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+nav a:hover {
+   left: 0;
+   color: #4d078f;
+}
+
+.about {
+    top: 25px;
+    background-color: #582A72;
+}
+ 
+ .blog {
+    top: 110px;
+    background-color: #512C73;
+ } 
+
+ .projects {
+    top: 170px;
+    background-color: #6F4D8F;
+ }
+
+ .contact {
+    top: 230px;
+    background-color: #9227AC;
+ }
+
+ header {
+    height: 70px; 
+    background-image: url(https://t4.ftcdn.net/jpg/03/86/82/73/360_F_386827376_uWOOhKGk6A4UVL5imUBt20Bh8cmODqzx.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ main {
+   padding-left: 150px;
+   margin: 30px 0;
+ }
+
+ main p {
+   font-family:Impact, fantasy; 
+   color: #6F4D8F;
+   font-size: 20px;
+ }
+ main h1 {
+   margin: 20px;
+ }
+
+.sun-img {
+   opacity: 0.2;
+   transition: 0.4s;
+} 
+
+.sun-img:hover {
+   opacity: 0.6;
+   transform: scale(1.3);
+   margin: 20px;
+}
+
+.orbita-img {
+   opacity: 0.2;
+   transition: 0.4s;
+} 
+
+.orbita-img:hover {
+   opacity: 0.6;
+   transform: scale(1.3);
+   margin: 20px;
+}
+
+.img-container {
+   display: flex;
+   gap: 30px;
+}
+
+footer {
+   padding: 30px;
+   background-image: url(https://t4.ftcdn.net/jpg/03/86/82/73/360_F_386827376_uWOOhKGk6A4UVL5imUBt20Bh8cmODqzx.jpg);
+}
+
+footer p {
+   font-family:Impact, fantasy; 
+   color: #6F4D8F;
+   font-size: 20px;
+   margin: 0;
+}
+
