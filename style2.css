@@ -1,0 +1,160 @@
+body {
+   background-color: #200439;
+   margin: 0;
+}
+
+h1 {
+   font-family:Impact, fantasy; 
+   color: #6F4D8F;
+   text-align: center;
+   margin: 0;
+}
+
+nav a {
+    position: fixed;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+nav a:hover {
+   left: 0;
+   color: #4d078f;
+}
+
+.about {
+    top: 25px;
+    background-color: #582A72;
+}
+ 
+ .blog {
+    top: 110px;
+    background-color: #512C73;
+ } 
+
+ .projects {
+    top: 170px;
+    background-color: #6F4D8F;
+ }
+
+ .contact {
+    top: 230px;
+    background-color: #9227AC;
+ }
+
+ header {
+    height: 70px; 
+    background-image: url(https://t4.ftcdn.net/jpg/03/86/82/73/360_F_386827376_uWOOhKGk6A4UVL5imUBt20Bh8cmODqzx.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ main {
+   padding-left: 150px;
+   margin: 30px 0;
+ }
+
+ main p {
+   font-family:Impact, fantasy; 
+   color: #6F4D8F;
+   font-size: 20px;
+ }
+ main h1 {
+   margin: 20px;
+ }
+
+.sun-img {
+   opacity: 0.2;
+   transition: 0.4s;
+} 
+
+.sun-img:hover {
+   opacity: 0.6;
+   transform: scale(1.3);
+   margin: 20px;
+}
+
+.orbita-img {
+   opacity: 0.2;
+   transition: 0.4s;
+} 
+
+.orbita-img:hover {
+   opacity: 0.6;
+   transform: scale(1.3);
+   margin: 20px;
+}
+
+.img-container {
+   display: flex;
+   gap: 30px;
+}
+
+footer {
+   padding: 30px;
+   background-image: url(https://t4.ftcdn.net/jpg/03/86/82/73/360_F_386827376_uWOOhKGk6A4UVL5imUBt20Bh8cmODqzx.jpg);
+}
+
+footer p {
+   font-family:Impact, fantasy; 
+   color: #6F4D8F;
+   font-size: 20px;
+   margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery img {
+    opacity: 0.2;
+    width: 350px;
+    height: 200px;
+    transition: 0.5s ease-out;
+}
+
+.gallery img:hover {
+  opacity: 1; 
+  border: 6px solid #6F4D8F;
+  width: 530px;
+  height: 250px;
+  padding: 5px;
+  }
+
+
+.img-container{
+  position: relative;
+  margin-bottom: 0px;
+  transition: 0.3s;
+}
+.img-container span{
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  bottom: -30px;
+  left: 43%;
+  font-size: 30px;
+  color: #6F4D8F;
+  transition: 0.3s;
+}
+.img-container:hover span{
+ opacity: 1;
+}
+
+.img-container:hover{
+  margin-bottom: 50px;
+}
+
+.videos {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}
